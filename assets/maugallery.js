@@ -111,10 +111,11 @@
     responsiveImageItem(element) {
       if (element.prop("tagName") === "IMG") {
         element.addClass("img-fluid");
-        var width = 300; 
-        var height = element.height()* (width / element.width());
-        element.attr('width', width);
-        element.attr('height', height);
+        element.css({
+          maxWidth: "100%",
+          maxHeight: "100vh",
+          objectFit: "cover"
+        });
       }
     },
     openLightBox(element, lightboxId) {
