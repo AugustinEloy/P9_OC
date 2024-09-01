@@ -110,12 +110,7 @@
     },
     responsiveImageItem(element) {
       if (element.prop("tagName") === "IMG") {
-        element.addClass("img-fluid");
-        element.css({
-          maxWidth: "100%",
-          maxHeight: "100vh",
-          objectFit: "cover"
-        });
+        element.addClass("img-fluid image-responsive");
       }
     },
     openLightBox(element, lightboxId) {
