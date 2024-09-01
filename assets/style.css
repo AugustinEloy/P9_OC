@@ -340,5 +340,9 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.gallery-item{
+		width: 90%;
+		height: 500px;
+	}
 }
 
