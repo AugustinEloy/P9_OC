@@ -60,6 +60,13 @@ body {
 	left: 0;
 	z-index: -1;
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	filter: invert(100%); 
+	background-color: black; 
+    border-radius: 50%;
+	
+  }
+
 
 .picture {
 	flex: 1;
@@ -100,7 +107,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #242424;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
