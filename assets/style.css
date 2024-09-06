@@ -60,11 +60,6 @@ body {
 	left: 0;
 	z-index: -1;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
-	background-color: black; 
-    border-radius: 50%;
-	
-  }
   .nexttest{
 	color: #000;
 	background-color: white;
