@@ -61,7 +61,6 @@ body {
 	z-index: -1;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-	filter: invert(100%); 
 	background-color: black; 
     border-radius: 50%;
 	
@@ -71,6 +70,7 @@ body {
 	background-color: white;
   }
 
+  
 
 .picture {
 	flex: 1;
